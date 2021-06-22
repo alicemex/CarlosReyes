@@ -19,13 +19,15 @@
 .app div {
     color: white;
     width: 35%;
-    border-radius: 8%;
-    min-height: 25rem;
+    height: 15rem;
+    border-radius: 15px;
     margin: 2rem;
     display: flex;
     padding: 2rem;
     vertical-align: center;
     align-items: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 
 .Profile {
